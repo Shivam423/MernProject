@@ -25,7 +25,7 @@ const About = () => {
                 throw error;
             }
         } catch (err) {
-            alert(err);
+            
             history.push('/login');
         }
     }

@@ -20,7 +20,7 @@ const Contact = () => {
                 throw error;
             }
         } catch (err) {
-            alert(err);
+            console.log(err);
         }
     }
 
