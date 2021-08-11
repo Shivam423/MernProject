@@ -20,7 +20,7 @@ const Home = ()=>{
             setshow(true);
 
         } catch (err) {
-            alert(err);
+            console.log(err);
         }
     }
 
